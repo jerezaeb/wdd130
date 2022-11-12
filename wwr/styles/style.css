@@ -86,6 +86,8 @@ footer, .p {
 }    
 
 .logo {
+    margin-left: 5px;
+    margin-top: 5px;
     width: 80px;
 }
 
@@ -103,6 +105,13 @@ footer, .p {
     text-align: center;
 }
 
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+
+
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
@@ -114,10 +123,50 @@ footer, .p {
 #hero-img {
     text-align: center;
     width: 100%;
+
 }
 
-#hero-rafting-message h4 {
+
+#river-hero {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+}
+
+#rivers-message {
     color: white;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 180px;
+    margin-left: 100px;
+    text-align: left;
+
+}
+.rivers-title {
+    font-size: 6em;
+}
+
+.rivers-about {
+    font-size: 1.8em;
+    margin-top: 10px;
+}
+
+
+
+#river-hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    text-align: center;
+    width: 100%;
+    z-index: -1;
+}
+
+
+#river-hero-img {
+    height: 700px;
+    text-align: center;
+    width: 100%;
+    
 }
 
 .home-grid {
@@ -186,6 +235,7 @@ footer, .p {
     max-width: 1600px;
 }
 
+
 msg p {
     font-family: var(--paragraph-font);
     font-size: .8em;
@@ -211,6 +261,53 @@ msg p {
     text-decoration: none;
 }
 
+.river-content {
+    margin-left: 150px;
+    margin-top: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.river1 h2 {
+    font-size: 3em;
+    text-align: left;
+}
+
+.river1 p {
+    font-size: 1.8em;
+    line-height: 200%;
+    text-align: left;
+    
+}
+
+.river1-img {  
+    box-shadow: 5px 5px 10px teal;
+    line-height: .8em;
+    margin-top: 50px;
+    padding: 10px;
+    width: 50%;
+}
+
+.river2 h2 {
+    font-size: 3em;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.river2 p {
+    font-size: 1.8em;
+    line-height: 200%;
+    text-align: left;
+    
+}
+
+.river2-img {   
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px teal;
+    line-height: .5em;
+    padding: 10px;
+    width: 50%;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
