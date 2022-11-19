@@ -378,9 +378,9 @@ form {
   #feedback {
     background-color: antiquewhite;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 100;
+    left: 100;
+    right: 100;
     padding: .5em;
     /* make this element invisible until we are ready for it */
     display: grid;      
