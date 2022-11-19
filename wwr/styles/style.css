@@ -375,16 +375,7 @@ form {
        between the labels and their text fields */
     margin-left: 0.5em;
   }  
-  #feedback {
-    background-color: antiquewhite;
-    position: absolute;
-    top: 100;
-    left: 100;
-    right: 100;
-    padding: .5em;
-    /* make this element invisible until we are ready for it */
-    display: none;      
-}
+  
 .moveDown {
     margin-top: 5em;
 }
