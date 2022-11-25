@@ -9,13 +9,8 @@
     --accent1-color: #F4C3C2;
     --accent2-color: #D6D9CE;
 }
-#background {
-    background-color:  #D6D9CE;
-    grid-column: 1/11;
-    grid-row: 4/9;
-    height: 725px;
-    margin-top: 100px;
-}
+
+
 body {
     background-color: #D6D9CE;
     font-size: .8em;
@@ -120,13 +115,16 @@ nav a {
     text-align: center;
     font-size: 1.5em;
 }
+.homepage-content .p {
+    color: black;
+}
 
 .our-products {
     margin-top: 100px;
     text-align: center;
     font-size: 1.5em;
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns:repeat(10,1fr);
 
 }
 
@@ -196,6 +194,7 @@ nav a {
     margin-right: 100px;
     text-align: center;
     font-size: 1.5em;
+    color:black;
 }
 footer{
     align-items: center;
